@@ -1,0 +1,25 @@
+POST http://127.0.0.1:5000/api/v1/ann
+Content-Type: application/json
+
+{   "title": "",
+    "description": "",
+    "owner": ""
+}
+
+###
+
+DELETE http://127.0.0.1:5000/api/v1/ann/22
+
+###
+PATCH http://127.0.0.1:5000/api/v1/ann/3244
+Content-Type: application/json
+
+{
+    "title": "",
+    "description": "",
+    "owner": ""
+}
+
+###
+
+GET http://127.0.0.1:5000/api/v1/ann/32
